@@ -8,12 +8,12 @@ h1{
 .jhanker{
     color: gold;
 }
-section{
+.flaxible-container{
     display: flex;
     margin-bottom: 100px;
 }
 .half-width{
-    width: 50%;
+    width: 503%;
     padding-left: 5%;
 }
 .half-width image{
@@ -35,4 +35,33 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.color{
+    color: orange;
+}
+.experience-item{
+    padding-left: 5px;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+
+}
+.size{
+    font-size: 40px;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stuck-developer{
+    border-left: 7px solid tomato;   
+}
+#baby-web-developer{
+    border-left: 7px solid blue;
+}
+footer{
+    text-align: center;
 }
